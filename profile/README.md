@@ -1,6 +1,6 @@
 # RuleGraph
 
-**Open standards and tooling for declarative, verifiable simulation.**  
+**Open standards for Rules as Data (LawCards)**  
 RuleGraph unifies **rules (“LawCards”)**, **typed state (with units & uncertainty)**, and **graph links** so any solver or agent can reason, simulate, and explain with **provenance and invariants**.
 
 ---
