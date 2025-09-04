@@ -20,10 +20,10 @@ We start small (classical mechanics demo) and grow by **LawCards + specs** other
 ## Scope (what lives under this org)
 
 - **`worldsim-core/`** — Python kernel: load/validate JSON-LD worlds, resolve LawCards, bind solvers, run steps, audit invariants.
-- **`lawcards/`** — Registry of versioned LawCards (e.g., gravity.newton.v1) with hashes, signatures, and test vectors.
+- **`lawcards/`** — Registry of versioned LawCards (e.g., gravity.newton.v1) with hashes, signatures, and test vectors. (public soon)
 - **`spec/`** — JSON-LD contexts, schemas, and convention docs (IDs, units, validity, invariants, provenance).
-- **`benchmarks/`** — Tiny, canonical tasks + acceptance metrics (e.g., 2-body energy drift < 1e-5).
-- **`examples/`** — Minimal runnable worlds and notebooks.
+- **`benchmarks/`** — Tiny, canonical tasks + acceptance metrics (e.g., 2-body energy drift < 1e-5). (public soon)
+- **`examples/`** — Minimal runnable worlds and notebooks. (public soon)
 
 Out of scope (for now): heavy UIs, giant multi-tenant systems, domain-specific apps.
 
