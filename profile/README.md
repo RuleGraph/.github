@@ -40,9 +40,8 @@ Out of scope (for now): heavy UIs, giant multi-tenant systems, domain-specific a
 
 ## Governance
 
-- **Model**: lightweight maintainer model (initial BDFL → maintainers group as contributors join).
+- **Model**: lightweight maintainer model.
 - **Decisions**: public issues + RFCs in `spec/` via PRs. We seek rough consensus + passing tests.
-- **Releases**: SemVer for code, calendar tags for specs; LawCards versioned as `name.major.minor` (e.g., `gravity.newton.v1`).
 - **Security**: report privately via GitHub Security Advisories on the affected repo.
 - **Code of Conduct**: Contributor Covenant v2.1 (applies org-wide).
 - **License**: Apache-2.0 for code and specs; LawCards published under CC-BY-4.0 + attached hashes/signatures.
@@ -67,12 +66,12 @@ Out of scope (for now): heavy UIs, giant multi-tenant systems, domain-specific a
 ## Repo Map
 
 - https://github.com/RuleGraph/worldsim-core
-- https://github.com/RuleGraph/lawcards
+- https://github.com/RuleGraph/lawcards (public soon)
 - https://github.com/RuleGraph/spec
-- https://github.com/RuleGraph/benchmarks
-- https://github.com/RuleGraph/examples
+- https://github.com/RuleGraph/benchmarks (public soon)
+- https://github.com/RuleGraph/examples (public soon)
 
-> Prefer short IDs: prefix IRIs with `rg:` (e.g., `rg:law/gravity.newton.v1`). Canonical JSON-LD `@context` will live in `spec/`.
+> Prefer short IDs: prefix IRIs with `rg:` (e.g., `rg:law/physics.gravity.newton.v1`). Canonical JSON-LD `@context` will live in `spec/`.
 
 ---
 
@@ -82,8 +81,6 @@ Out of scope (for now): heavy UIs, giant multi-tenant systems, domain-specific a
 2. For specs/LawCards: submit an RFC PR to `spec/` with examples + tests.
 3. Ensure all checks pass (`pre-commit`, unit tests).
 4. Be kind; follow the CoC.
-
-**Good first issues** are labeled across repos.
 
 ---
 
@@ -95,6 +92,6 @@ If this work helps your research/product, please cite the org and the specific L
 
 ## Maintainers
 
-- Lead: Francis Bousquet (founder)
+- Lead: Francis Bousquet
 - Maintainers: (TBD — seeking contributors)
 
