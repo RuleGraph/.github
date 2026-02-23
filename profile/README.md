@@ -36,33 +36,6 @@ Out of scope (for now): heavy UIs, giant multi-tenant systems, domain-specific a
 - **Safety & clarity**: validity windows and uncertainty are required, not optional.
 - **Pluggable**: multiple solvers/engines should produce identical results (within tolerance) from the same dataset.
 
----
-
-## Governance
-
-- **Model**: lightweight maintainer model.
-- **Decisions**: public issues + RFCs in `spec/` via PRs. We seek rough consensus + passing tests.
-- **Security**: report privately via GitHub Security Advisories on the affected repo.
-- **Code of Conduct**: Contributor Covenant v2.1 (applies org-wide).
-- **License**: Apache-2.0 for code and specs; LawCards published under CC-BY-4.0 + attached hashes/signatures.
-
----
-
-## Roadmap (initial)
-
-- **v0.1**
-  - `worldsim-core`: loaders, validators (units/validity), solver registry, simple Verlet, invariant watchdog, lockfile
-  - `lawcards`: `gravity.newton.v1` with test vectors + drift budgets
-  - `spec`: contexts for `gw:` IDs, units (QUDT), PROV, LawCard fields
-  - `benchmarks`: Earth–Sun 1-year run @60s dt, energy drift < 1e-5
-
-- **v0.2**
-  - Post-Newtonian switch & regime detection
-  - Parquet/Zarr guidance, reproducibility how-to
-  - Cross-engine reproducibility demo
-
----
-
 ## Repo Map
 
 - https://github.com/RuleGraph/worldsim-core
@@ -80,18 +53,4 @@ Out of scope (for now): heavy UIs, giant multi-tenant systems, domain-specific a
 1. Open an issue describing the change (bug, feature, LawCard proposal).
 2. For specs/LawCards: submit an RFC PR to `spec/` with examples + tests.
 3. Ensure all checks pass (`pre-commit`, unit tests).
-4. Be kind; follow the CoC.
-
----
-
-## Citation
-
-If this work helps your research/product, please cite the org and the specific LawCard used. Example `CITATION.cff` entries live in each repo.
-
----
-
-## Maintainers
-
-- Lead: Francis Bousquet
-- Maintainers: (TBD — seeking contributors)
 
